@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Untitled Document</title>
+<!-- TemplateEndEditable -->
+<link href="../assets/styles.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://use.typekit.net/nus5cmj.css">	
+	<!-- TemplateBeginEditable name="head" -->
+<style type="text/css">
+ 
+main{
+    height: 3625px
+}
+td{
+    background-color: #FFFFFF;
+    width: 500px;
+    padding:20px;
+    border: 10px solid #C590E6;
+    border-radius: 20px 20px 20px 20px;
+    border: thin solid #A750EB;
+}
+img {
+    border-width: thin;
+    border-style: solid;
+    background-color: #5F0BD5;
+}
+img {
+    background-color: #5E11DF;
+}
+th {
+    background-color: #6A09A9;
+    border: medium solid #A750EB;
+    border-radius: 20px 20px 20px 20px;
+    color: #E0C4F1;
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+    font-style: normal;
+    font-weight: bold;
+}
+	
+    </style>
+<!-- TemplateEndEditable -->
+</head>
+    <div id="container">
+      <header></header>
+      <nav><ol>
+        <li><a href="../pages/about.html">About</a></li>
+        <li><a href="../pages/blog.html">Blog</a></li>
+        <li><a href="../pages/gallery.html">Gallery</a></li>
+        <li><a href="../pages/contact.html">Contact</a></li>
+        </ol></nav>
+      <aside><h3>
+        Hello, I'm Myra and welcome to my page! Guess what, I am a dancer, traveler, and a baddie</h3></aside>
+ 
+      <!-- TemplateBeginEditable name="main-content" -->
+      <main>
+        <h1> Hello, world! My name is Myra.</h1>
+      </main>
+      <!-- TemplateEndEditable -->
+<footer></footer>
+  </div></html>

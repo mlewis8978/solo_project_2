@@ -1,0 +1,163 @@
+header{
+    width: 768px;
+    height: 250px;
+    background-color: green;
+    background-image: url("../images/Untitled-2.png");
+    background-repeat: no-repeat;
+	background-position: center
+}
+main{
+    width: 1100px;
+    height: 0px;
+    float: left;
+    padding: 10px
+}
+
+body {
+    color: #211F1F;
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+    font-size: medium;
+    background-image: url(assests/images/bokeh.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 20px	
+  }
+#container{
+    width: 1280px;
+    height: auto;
+    margin: auto;	
+}
+/*flost aside next to main*/aside {
+    width: 150px;
+    height: 1800px;
+    background-color: #8D9290;
+    float: left;
+}
+h1{
+    color: #056577;
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 45px
+}
+
+h3 {
+    font-size: large;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+main article h1 {
+    font-size: 50px;
+    margin-bottom: -5px;
+}
+main article p {
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 0px;
+    padding-left: 20px;
+    /* [disabled]float: right; */
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+    font-style: normal;
+}
+main article img {
+    float: right;
+}
+article {
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+}
+main {
+    height: 658px;
+}
+.floatLeft{float:left}
+nav  {
+    width: 1280px;
+    height: 50px;
+}
+#container nav ol{margin: auto;
+width:768px }
+
+nav ol li {
+    float: left;
+    display: block;
+    width: 60px;
+	font-family: lust-stencil-fine, 'sans-serif;'; 
+	margin: auto
+
+}
+.submit_btn:hover{-webkit-box-shaped: 4px 3px 35px 0px #000000;
+box-shadow:4px 3px 35px 0px white}
+
+#container nav ol li{
+    width: 100px;
+	margin: auto;
+}
+
+.column {
+    width: 250px;
+    height: 750px;
+    border-color: #B010CE;
+    border-style: solid;
+    float: left;
+    margin-left: 60px;
+    margin-right: 20px;
+}
+#container main video {
+    width: 600px;
+	height: 600px;
+    margin: 150px 0px 10px 0px ;
+  
+}
+
+
+/**rules for page width*/
+@media (max-width: 1024px){
+	#container{width:768px}
+	header{width:768px}
+	nav{width:768px}
+	main{width:598px}
+	footer{width: 768px}
+	.column{margin:0px 20px 0px 25px}
+}
+
+@media only screen and (max-width:375px){
+	#container{width:300px}
+	header{width:300px;
+	background-image: url("file:///Mac HD/Users/myralewis8978/Documents/Academic /Current Semester Files/Adobe Digitial Design/images/header.jpg");}
+	nav{width:300px;
+	position:static;
+	height: 200px}
+	main{width:300px}
+	footer{width: 300px}
+	aside{display: none}
+	.column{margin:0px 20px 0px 25px}
+	
+	#container nav ol li {
+	display: list-item;
+	list-style-type: none;
+	float: none;
+	margin: 0px 0px 20px 0px;
+	width: 260px;
+	text-align: center;	
+	
+}
+	
+	#container nav ol {
+	width: 260px;
+}
+
+	nav a:link {
+	display: block;
+	width: 200px;
+	background-color: #65EBFB;
+	color: white;
+	}
+	
+	nav a:visited {
+	text-decoration: none;
+	color: white;
+}
+
+}
